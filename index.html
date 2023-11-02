@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<meta charset="UTF=8">
+		<title>Component library</title>
+
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/variables.css">
+		<link rel="stylesheet" href="./css/fonts.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/accordion.css">
+	</head>
+
+	<body>
+		<header>
+			<ul class="header__list-elements">
+				<li>
+					<button data-component-to-show="accordion" class="overview__button overview__button--active">Accordion</button>
+				</li>
+
+				<li>
+					<button data-component-to-show="breadcrumb" class="overview__button">Breadcrumb</button>
+				</li>
+
+				<li>
+					<button data-component-to-show="card" class="overview__button">Card</button>
+				</li>
+
+				<li>
+					<button data-component-to-show="checkbox" class="overview__button">Checkbox</button>
+				</li>
+
+				<li>
+					<button data-component-to-show="close-button" class="overview__button">Close button</button>
+				</li>
+			</ul>	
+		</header>
+
+		<main>
+			<div class="component component--visible" data-component-name="accordion">
+				<div class="component-state">
+					<div class="component-state__name">
+						Accordion
+					</div>
+
+					<div class="component-state__variant">
+						<div class="accordion">
+							<button class="accordion__toggle">
+								Accordion Title
+							</button> 
+								<div class="accordion__content">Extremely exiting content</div>
+						</div>	
+					</div>	
+				</div>	
+			</div>
+		</main>
+	
+		<footer>
+			<ul class="footer__list-elements">
+				<li>
+					<button data-component-to-show="input-field" class="overview__button">Input field</button>
+				</li>
+				<li>
+					<button data-component-to-show="follow-button" class="overview__button">Follow button</button>
+				</li>
+				<li>
+					<button data-component-to-show="numeric-stepper" class="overview__button">Numeric stepper</button>
+				</li>
+				<li>
+					<button data-component-to-show="radio-button" class="overview__button ">Radio button</button>
+				</li>
+				<li>
+					<button data-component-to-show="toggle-button" class="overview__button ">Toggle button</button>
+				</li>
+			</ul>
+		</footer>
+		<script src="./js/script.js" defer></script>
+	</body>
+</html>

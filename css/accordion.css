@@ -1,0 +1,48 @@
+.accordion {
+	border: var(--border-normal);
+	border-radius: var(--border-radius);
+	min-width: 20em;
+	overflow: hidden;
+}
+.accordion__toggle {
+	width: 100%;
+	text-align: left;
+	padding: var(--spacing-small);
+}
+.accordion__toggle::before {
+	content: '';
+	display: inline-block;
+	width: 1.2rem;
+	height: 0.8rem;
+	background: url('../assets/downarrow.svg') no-repeat bottom;
+	background-size: contain;
+	margin-right: 0.4rem;
+}
+.accordion__content {
+	width: 100%;
+	background-color: white;
+	display: none;
+	padding: var(--spacing-small);
+}
+
+.accordion--hover .accordion__toggle,
+.accordion__toggle:hover,
+.accordion__toggle--hover {
+	background-color: var(--color-accent-2);
+}
+
+.accordion--expanded .accordion__content{
+	display: block;
+}
+
+.accordion--expanded .accordion__toggle {
+	border-bottom: 2px solid var(--color-tertiary);
+}
+
+.accordion--expanded .accordion__toggle::before {
+	transform: rotate(180deg);
+}
+
+/* .accordion--expanded {
+	background-color: (var(--color-accent-3));
+} */
