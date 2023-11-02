@@ -54,7 +54,7 @@ body{
 }
 
 .component--visible {
-	display: flex;
+	display: block;
 }
 
 .component-state {

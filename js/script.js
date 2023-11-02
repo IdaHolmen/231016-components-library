@@ -1,4 +1,3 @@
-
 const overviewButtons = document.querySelectorAll('.overview__button');
 const components = document.querySelectorAll('.component');
 
