@@ -1,6 +1,20 @@
-/* @font-face {
+@font-face {
 	font-family: 'Inter';
-	src: url('../assets/fonts/Inter-Medium.woff');
+	src: url('../assets/inter/Inter-Medium.woff2');
 	font-weight: 400;
 	font-style: normal;
-} */
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../assets/inter/Inter-Bold.woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../assets/inter/Inter-Italic.woff2');
+	font-weight: 400;
+	font-style: italic;
+}

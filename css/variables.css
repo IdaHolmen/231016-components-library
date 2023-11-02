@@ -14,7 +14,8 @@
 	--spacing-medium: 1rem;
 	--spacing-large: 2rem;
 
-	--border-radius: 10px;
+	--border-radius-small: 10px;
+	--border-radius-medium: 25px;
 
 	--border-normal: 1px solid black;
 }
