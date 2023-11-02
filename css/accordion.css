@@ -42,7 +42,3 @@
 .accordion--expanded .accordion__toggle::before {
 	transform: rotate(180deg);
 }
-
-/* .accordion--expanded {
-	background-color: (var(--color-accent-3));
-} */
