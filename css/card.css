@@ -1,7 +1,7 @@
 .card {
 	border: var(--border-normal);
 	width: 800px;
-	border-radius: var(--border-radius-medium);
+	border-radius: var(--border-radius-medium-plus);
 }
 
 .card__name {

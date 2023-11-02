@@ -17,17 +17,18 @@
 	--color-accent-6: #858585;
 	--color-accent-7: #69B5FD;
 	
-
 	--color-accent-3-faded: #ffc8dd31;
-
 
 	--spacing-small: 0.5rem;
 	--spacing-medium: 1rem;
 	--spacing-large: 2rem;
 
 	--border-radius-small: 10px;
-	--border-radius-medium: 25px;
+	--border-radius-medium: 20px;
+	--border-radius-medium-plus: 25px;
 
 	--border-normal: 1px solid black;
+	--border-pronounced: 4px solid black;
 	--border-card-hover: 3px solid #69B5FD;
+	--border-input-active: 4px solid #6F2DBD;
 }

@@ -1,0 +1,13 @@
+input {
+	all: unset;
+	border: var(--border-normal);
+	border-radius: var(--border-radius-medium);
+}
+
+input:hover {
+	border: var(--border-pronounced);
+}
+
+input:active {
+	border: var(--border-input-active);
+}
