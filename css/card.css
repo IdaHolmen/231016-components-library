@@ -1,5 +1,34 @@
 .card {
-	border: 1px solid black;
+	border: var(--border-normal);
 	width: 800px;
 	border-radius: var(--border-radius-medium);
+}
+
+.card__name {
+	font-size: var(--font-size-small);
+	font-weight: 600;
+	padding: var(--spacing-small);
+}
+
+.card__title {
+	font-size: var(--font-size-small-plus);
+	color: var(--color-accent-5);
+}
+
+.card__subtext {
+	font-size: var(--font-size-extra-small);
+	color: var(--color-accent-6);
+}
+
+.card__content {
+	font-size: var(--font-size-extra-small);
+	padding: var(--spacing-medium);
+}
+
+.card:hover {
+	border: var(--border-card-hover);
+}
+
+.card:active {
+	background: var(--color-accent-3-faded);
 }

@@ -1,6 +1,6 @@
 .accordion {
 	border: var(--border-normal);
-	border-radius: var(--border-radius);
+	border-radius: var(--border-radius-small);
 	min-width: 20em;
 	overflow: hidden;
 }
