@@ -95,3 +95,10 @@ const toggleCloseButtonClasses = () => {
 closeButtonNormal.addEventListener('click', toggleCloseButtonClasses);
 closeButtonActive.addEventListener('click', toggleCloseButtonClasses);
 
+
+//Follow button function
+const followButton = document.querySelector('.follow-button--normal');
+const unfollowButton = document.querySelector('.follow-button--unfollow');
+
+console.log(followButton);
+console.log(unfollowButton);
