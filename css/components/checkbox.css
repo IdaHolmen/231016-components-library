@@ -20,12 +20,12 @@
 	border: var(--border-checkbox-normal);
 	border-radius: var(--border-radius-small);
 	background-color: #fff;
-	transition: background-color 0.2s ease;
 }
 
 .input-checkbox__label:hover::before {
 	background-color: var(--color-accent-3-faded);
 }
 
+.checked
 
   
