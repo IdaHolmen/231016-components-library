@@ -1,3 +1,4 @@
+//Alejandro's code from class
 const overviewButtons = document.querySelectorAll('.overview__button');
 const components = document.querySelectorAll('.component');
 
@@ -30,8 +31,7 @@ overviewButtons.forEach(overviewButton => {
 	overviewButton.addEventListener ('click', displayComponent);
 });
 
-
-
+//function for accordion
 const accordions = document.querySelectorAll('.accordion');
 
 accordions.forEach(accordion => {
@@ -44,6 +44,8 @@ accordions.forEach(accordion => {
 });
 
 const checkboxes = document.querySelectorAll('.input-checkbox__input');
+
+//Function for checkbox
 
 const toggleCheckmarkClass = (event) => {
     const checkboxId = event.target.id;
