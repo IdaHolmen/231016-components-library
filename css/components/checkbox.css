@@ -26,6 +26,11 @@
 	background-color: var(--color-accent-3-faded);
 }
 
-.checked
+.input-checkbox__label.checked::before {
+	content: url('../../assets/checkmark.svg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
   
