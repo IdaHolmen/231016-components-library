@@ -16,7 +16,7 @@ overviewButtons.forEach(overviewButton => {
 			}
 		})
 		components.forEach(component =>{
-			component.classList.remove('component-visible');
+			component.classList.remove('component--visible');
 
 			const componentName = component.dataset.componentName;
 
@@ -41,4 +41,21 @@ accordions.forEach(accordion => {
 		accordion.classList.toggle('accordion--expanded');
 	}	
 	accordionToggle.addEventListener('click', displayAccordionContent);
+});
+
+const checkbox = document.querySelector('.input-checkbox__input');
+
+const toggleCheckmarkClass = (event) => {
+	const checkboxId = event.target.id;
+	const label = document.querySelector(`label[for='${checkboxId}']`);
+
+	if (event.target.checked) {
+		label.classList.add('checked');
+	} else {
+		label.classList.remove('checked');
+	}
+}
+
+checkbox.forEach(checking => {
+	checking.addEventListener('change', toggleCheckmarkClass);
 });
