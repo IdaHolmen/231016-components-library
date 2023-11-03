@@ -1,5 +1,32 @@
 .numeric-stepper__container {
 	display: flex;
 	flex-flow: row nowrap;
-		
+}
+
+.numeric-element {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding-top: 7px;
+	border: var(--border-normal);
+}
+
+.numeric-button {
+	margin-left: 20px;
+	margin-right: 20px;
+	background: var(--color-accent-12);
+	width: 50px;
+	height: 50px;
+	color: var(--color-secondary);
+	border-radius: var(--border-radius-small);
+}
+
+.numeric-button:hover {
+	background: var(--color-accent-10);
+}
+
+.numeric-button:active {
+	background: var(--color-accent-5);
 }
