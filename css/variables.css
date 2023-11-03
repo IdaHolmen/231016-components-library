@@ -18,6 +18,8 @@
 	--color-accent-7: #69B5FD;
 	--color-accent-8: #FF77A8;
 	--color-accent-9: #BDE0FE;
+	--color-accent-10: #A663CC;
+	--color-accent-11: #E9C3FF;
 	
 	--color-accent-3-faded: #ffc8dd31;
 
@@ -35,4 +37,5 @@
 	--border-pronounced: 4px solid black;
 	--border-card-hover: 3px solid #69B5FD;
 	--border-input-active: 4px solid #6F2DBD;
+	--border-toggle-button: 4px solid #B298DC;
 }
