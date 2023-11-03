@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="./css/components/checkbox.css">
 		<link rel="stylesheet" href="./css/components/breadcrumb.css">
 		<link rel="stylesheet" href="./css/components/close.css">
+		<link rel="stylesheet" href="./css/components/follow.css">
 	</head>
 
 	<body>
@@ -99,8 +100,21 @@
 				<!-- CLOSE BUTTON -->
 				<div class="component" data-component-name="close-button">
 					<div class="close-button__container">
-						<button class="close-button--normal">Close?</button>
+						<button class="close-button close-button--normal"><img src="../231016-components-library/assets/Closing-x.svg" alt="">Close?</button>
+
+						<button class="close-button close-button--active" style="display:none;">
+							<img src="../231016-components-library/assets/Closing-x.svg" alt="">
+						</button>
 					</div>	
+				</div>
+
+				<!-- FOLLOW/UNFOLLOW BUTTON -->
+				<div class="component" data-component-name="follow-button">
+					<div class="follow-button__container">
+						<button class="follow-button follow-button--normal">Follow</button>
+
+						<button class="follow-button follow-button--unfollow">Unfollow</button>
+					</div>
 				</div>
 			
 			</main>
