@@ -1,0 +1,1 @@
+https://blog.openreplay.com/how-to-customize-checkboxes-with-css/

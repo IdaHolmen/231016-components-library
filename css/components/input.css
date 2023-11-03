@@ -1,13 +1,13 @@
-input {
+.input__field {
 	all: unset;
 	border: var(--border-normal);
 	border-radius: var(--border-radius-medium);
 }
 
-input:hover {
+.input__field:hover {
 	border: var(--border-pronounced);
 }
 
-input:active {
+.input__field:active {
 	border: var(--border-input-active);
 }

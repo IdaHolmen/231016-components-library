@@ -7,9 +7,10 @@
 		<link rel="stylesheet" href="./css/variables.css">
 		<link rel="stylesheet" href="./css/fonts.css">
 		<link rel="stylesheet" href="./css/style.css">
-		<link rel="stylesheet" href="./css/accordion.css">
-		<link rel="stylesheet" href="./css/card.css">
-		<link rel="stylesheet" href="./css/input.css">
+		<link rel="stylesheet" href="./css/components/accordion.css">
+		<link rel="stylesheet" href="./css/components/card.css">
+		<link rel="stylesheet" href="./css/components/input.css">
+		<link rel="stylesheet" href="./css/components/checkbox.css">
 	</head>
 
 	<body>
@@ -60,8 +61,16 @@
 				</div>		
 
 				<div class="component" data-component-name="input-field">
-					<div class="input" name="name" aria-placeholder="Name">
-						<input type="text">
+					<div class="input">
+						<input class="input__field" type="text" name="name" aria-placeholder="Name">
+					</div>
+				</div>
+
+				<div class="component" data-component-name="checkbox">
+					<div class="input-checkbox">
+						<label class="input-checkbox__label">
+							<input class="input-checkbox__input" hidden type="checkbox" name="option-a">
+						</label>
 					</div>
 				</div>
 			
