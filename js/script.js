@@ -61,3 +61,9 @@ const toggleCheckmarkClass = (event) => {
 checkboxes.forEach(checkbox => {
     checkbox.addEventListener('change', toggleCheckmarkClass);
 });
+
+
+// Breadcrumb function
+const breadcrumbs = document.querySelectorAll('.breadcrumb__list-item');
+console.log(breadcrumbs);
+
