@@ -1,0 +1,35 @@
+.follow-button--normal {
+	width: 250px;
+	height: 68px;
+	border-radius: var(--border-radius-large);
+	background: var(--color-accent-9);
+	font-weight: 200;
+}
+
+.follow-button--normal:hover {
+	color: rgba(0, 0, 0, 0.600);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.follow-button--normal:active {
+	background: var(--color-accent-7);
+}
+
+.follow-button--unfollow {
+	width: 250px;
+	height: 68px;
+	color: var(--color-accent-7);
+	border: var(--border-card-hover);
+	border-radius: var(--border-radius-large);
+	background: var(--color-secondary);
+	font-weight: 200;
+}
+
+.follow-button--unfollow:hover {
+	background: #bde0fe20;
+}
+
+.follow-button--unfollow:active {
+	color: var(--color-secondary);
+	background: var(--color-accent-7)
+}
