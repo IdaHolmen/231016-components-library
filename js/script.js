@@ -72,4 +72,15 @@ const clearActiveClass = () => {
 	});
 };
 
+const setActiveClass = (clickedBreadcrumb) => {
+	clearActiveClass();
+	clickedBreadcrumb.classList.add('breadcrumb__list-item--active');
+};
+
+breadcrumbs.forEach(breadcrumb => {
+	breadcrumb.addEventListener('click', (event) => {
+		event.preventDefault();
+		setActiveClass(event.currentTarget);
+	});
+});
 
