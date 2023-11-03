@@ -84,3 +84,14 @@ breadcrumbs.forEach(breadcrumb => {
 	});
 });
 
+//Close button function 
+const closeButtonNormal = document.querySelector('.close-button--normal');
+const closeButtonActive = document.querySelector('.close-button--active');
+
+const toggleCloseButtonClasses = () => {
+	closeButtonNormal.style.display = closeButtonNormal.style.display === 'none' ? 'block' : 'none';
+	closeButtonActive.style.display = closeButtonActive.style.display === 'none' ? 'block' : 'none';
+};
+closeButtonNormal.addEventListener('click', toggleCloseButtonClasses);
+closeButtonActive.addEventListener('click', toggleCloseButtonClasses);
+
