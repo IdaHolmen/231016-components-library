@@ -66,14 +66,10 @@ checkboxes.forEach(checkbox => {
 // Breadcrumb function
 const breadcrumbs = document.querySelectorAll('.breadcrumb__list-item');
 
-breadcrumbs.forEach(breadcrumb => {
-		const addBreadcrumbClass = (event) => {
-			if (event.target.clicked) {
-				breadcrumb.classList.add('breadcrumb__list-item--active');
-			} else {
-				breadcrumb.classList.remove('breadcrumb__list-item--active');
-			}
-		}
-	breadcrumbs.addEventListener('click', addBreadcrumbClass);	
-});
+const clearActiveClass = () => {
+	breadcrumbs.forEach(breadcrumb => {
+		breadcrumb.classList.remove('breadcrumb__list-item--active');
+	});
+};
+
 
