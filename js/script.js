@@ -129,3 +129,4 @@ const updateNumber = (delta) => {
   
 incrementButton.addEventListener('click', () => updateNumber(1));
 reduceButton.addEventListener('click', () => updateNumber(-1));
+
