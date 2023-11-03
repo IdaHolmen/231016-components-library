@@ -1,0 +1,29 @@
+.input-radio {
+	display: flex;
+	flex-flow: row nowrap;
+	gap: var(--spacing-medium);
+}
+
+.input-radio__label {
+	cursor: pointer;
+}
+
+.input-radio__label:hover .input-radio__text::before {
+	border: var(--border-checkbox-normal);
+}
+
+.input-radio__text::before {
+	content: '';
+	display: inline-block;
+	background: var(--color-secondary);
+	margin-right: 0.25rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 100%;
+	border: var(--border-normal);
+}
+
+.input-radio__input:checked + .input-radio__text::before {
+	background: var(--color-accent-7);
+	border: var(--border-checkbox-normal);
+}
