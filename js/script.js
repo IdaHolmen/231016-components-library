@@ -114,3 +114,18 @@ const toggleFollowButton = () => {
 
 followButton.addEventListener('click', toggleFollowButton);
 unfollowButton.addEventListener('click', toggleFollowButton);
+
+//Numeric stepper function
+
+const incrementButton = document.querySelector('.numeric-button__increment');
+const reduceButton = document.querySelector('.numeric-button__reduce');
+const numberContainer = document.querySelector('.numeric-element');
+
+const updateNumber = (delta) => {
+	let currentNumber = parseInt(numberContainer.textContent, 10);
+	currentNumber += delta;
+	numberContainer.textContent = currentNumber;
+};
+  
+incrementButton.addEventListener('click', () => updateNumber(1));
+reduceButton.addEventListener('click', () => updateNumber(-1));
