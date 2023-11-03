@@ -100,5 +100,17 @@ closeButtonActive.addEventListener('click', toggleCloseButtonClasses);
 const followButton = document.querySelector('.follow-button--normal');
 const unfollowButton = document.querySelector('.follow-button--unfollow');
 
-console.log(followButton);
-console.log(unfollowButton);
+unfollowButton.style.display = 'none';
+
+const toggleFollowButton = () => {
+	if (followButton.style.display === 'none') {
+		followButton.style.display = 'block';
+		unfollowButton.style.display = 'none';
+	} else {
+		followButton.style.display = 'none';
+		unfollowButton.style.display = 'block';
+	}
+};
+
+followButton.addEventListener('click', toggleFollowButton);
+unfollowButton.addEventListener('click', toggleFollowButton);
